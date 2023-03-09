@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran&family=Genos&family=Shantell+Sans&display=swap');
+body{
+	background-image: linear-gradient(to bottom , rgb(84, 83, 83) ,rgb(56, 56, 58));
+	height: 100vh;
+}
+.container {
+	margin: 40px;
+	padding: 40px;
+	background-color: aliceblue;
+	border-radius: 10px;
+}
+
+h1 {
+	text-align: center;
+	font-family: 'Shantell Sans', cursive;
+
+}
+
+form {
+	display: flex;
+	margin-bottom: 10px;
+}
+
+input[type="text"] {
+	flex-grow: 1;
+	padding: 5px;
+	margin-right: 10px;
+}
+
+select {
+	padding: 5px;
+	margin-right: 10px;
+}
+
+button {
+	padding: 5px;
+	background-color: #007bff;
+	color: white;
+	border: none;
+	cursor: pointer;
+	border-radius: 10px;
+}
+
+.task {
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+.task-text {
+	flex-grow: 1;
+	font-family: 'Catamaran', sans-serif;
+	font-weight: bold;
+}
+
+.task-priority {
+	margin-right: 10px;
+
+}
+
+.delete-button {
+	background-color: #dc3545;
+	color: white;
+	border: none;
+	padding: 5px;
+	cursor: pointer;
+	margin-left: 10px;
+	border-radius: 10px;
+}
